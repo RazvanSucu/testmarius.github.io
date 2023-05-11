@@ -1,0 +1,61 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.flex-about{
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+  gap: 1em;
+
+}
+img{
+  width: 100%;
+height: 100vh;
+  border-radius: 20px;
+}
+p{
+  color: rgb(102, 101, 101);
+  font-size: medium;
+  font-size: 0.1em;
+  font-family: 'Zapfino', sans-serif;
+
+  margin:.5em 0;
+ 
+}
+img:hover{
+  transition: .5s;
+  opacity: 0.5;
+}
+h3{
+  color: black;
+  font-weight: bold;
+  font-family: 'Zapfino', sans-serif;
+
+  margin-bottom: .5em;
+
+}
+.footer{
+  position: absolute;
+  top: 910px;
+}
+@media screen and (min-width: 600px){
+  .flex-about{
+    display: flex;
+    flex-direction: row;
+  }
+  img{
+    width: 50%;
+  }
+  p{
+    font-size: 1em;
+  }
+  
+    .footer{
+      position: absolute;
+      top: 1300px;
+    }
+  
+}
